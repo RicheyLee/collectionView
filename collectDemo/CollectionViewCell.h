@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CollectionViewCell.h
 //  collectDemo
 //
 //  Created by Richey on 15/8/5.
@@ -7,9 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+static NSString * const reuseIdentifier = @"Cell";
 
-@interface ViewController : UIViewController
-
+@interface CollectionViewCell : UICollectionViewCell
 
 @end
-
